@@ -86,10 +86,6 @@
   background: var(--youTube);
 }
 
-.overview-wrapper__indiviual-overview > *:first-child, .followers-wrapper__follower-data > *:first-child, .change{
-  font-size: 12px;
-}
-
 .change{
   font-weight: 700;
 }
@@ -103,6 +99,9 @@
   width: 18px;
 }
 
+body{
+  font-size: 14px;
+}
 
 /* dark mode toggler */
 
@@ -174,7 +173,6 @@
 .header__total-followers{
     font-weight: 700;
     line-height: 1.5;
-    font-size: var(--header-font-size);
     color: var(--text-font-color);
 }
 
@@ -187,6 +185,7 @@
   font-weight: 700;
   font-size: var(--header-font-size);
   color: var(--text-font-color);
+  font-size: 14px;
 }
 
 
@@ -334,7 +333,7 @@
   }
 
   .followers-wrapper__follower-data{
-    padding: 8% 15%;
+    padding: 14% 12% 10%;
   }
 
   
